@@ -17,7 +17,7 @@
     "next": "14.1.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "react-map-gl": "^8.1.20",
+    "react-map-gl": "^8.0.4",
     "swr": "^2.2.5",
     "tailwindcss": "3.4.0"
   },
