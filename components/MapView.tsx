@@ -1,14 +1,14 @@
 'use client';
 
+import Map from 'react-map-gl';
 import { useRef } from 'react';
-import { Map } from 'react-map-gl';
 
 type Props = {
   onPick?: (lngLat: [number, number]) => void;
 };
 
 export default function MapView({ onPick }: Props) {
-  const mapRef = useRef(null);
+  const mapRef = useRef<Map>(null);
 
   return (
     <Map
