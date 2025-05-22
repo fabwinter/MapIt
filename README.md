@@ -1,6 +1,6 @@
-# Aus Location Intelligence (Fixed)
+# Aus Location Intelligence (Final)
 
-This project has been updated to fix build issues with react-map-gl imports.
+Fixed build issues: added `maplibre-gl` dependency and corrected CSS import path.
 
 ## Quick Start
 
@@ -14,6 +14,7 @@ npm run dev
 
 - Next.js 14 (App Router)
 - Tailwind CSS
-- react-map-gl (via react-map-gl/maplibre)
-- Deck.gl + Mapbox GL
+- react-map-gl (via maplibre)
+- maplibre-gl
+- Deck.gl + Mapbox styles
 - Supabase Postgres + PostGIS
